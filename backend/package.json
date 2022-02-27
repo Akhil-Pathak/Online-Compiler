@@ -1,0 +1,32 @@
+{
+  "name": "online-compiler-backend",
+  "version": "1.0.0",
+  "description": "Backend for online-compiler using Docker and NodeJs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akhil-Pathak/Online-Compiler.git"
+  },
+  "keywords": [
+    "Compiler",
+    "online-compiler"
+  ],
+  "author": "Akhil Pathak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akhil-Pathak/Online-Compiler/issues"
+  },
+  "homepage": "https://github.com/Akhil-Pathak/Online-Compiler#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "nodemon": "^2.0.15"
+  }
+}
